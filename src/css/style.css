@@ -1,0 +1,622 @@
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+ol,
+ul {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+/*===========================General content=======================*/
+
+body{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+  background-color:rgb(189, 205, 214);
+}
+
+
+header{
+   background-color:rgb(96, 150, 180);
+   color: white;
+    width:100%;
+    height:100px;
+    position: sticky;
+    top: 0;
+    
+
+}
+
+a:link {
+  color: green;
+}
+
+
+
+/* mouse over link */
+a:hover {
+  color:red;
+
+}
+
+/* visited link */
+a:visited {
+  color:purple;
+}
+
+
+header nav a{
+  
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    float: right;
+}
+h1{
+    text-align: center;
+    padding-top: 30px;
+    font-weight:600;
+}
+#about img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin:0 auto;
+}
+#about{
+    background-color:rgb(189, 205, 214);
+    display: grid;
+    gap: 50px ;
+    grid-template-columns: auto ;
+    padding: 30px;
+    width: 100%;
+   
+}
+h2{
+    padding-top: 20px;
+    font-weight:600;
+}
+
+#about,p,.aboutMe{
+  
+  width: 80%;
+ margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+
+}
+
+
+
+p {
+  
+  background-color: #f1f1f1; 
+  
+}
+span{
+    padding-top: 10px;
+}
+
+/*===========================container content=======================*/
+
+#contSkills{
+    background-color:rgb(189, 205, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height:200px;
+}
+
+
+
+#technologiAndSkills {
+    display: grid;
+    gap: 50px ;
+    grid-template-columns: auto ;
+    padding: 30px;
+    width: 50%;
+  }
+  
+  #technologiAndSkills > div {
+    width: 60%;
+    background-color: #f1f1f1;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+    margin-left: 100px;
+  }
+
+
+
+  #contlinks {
+    display: grid;
+    gap: 50px ;
+    grid-template-columns: auto auto auto auto auto ;
+    background-color:rgb(189, 205, 214);
+    padding: 60px;
+    width: 100%;
+  }
+  
+  #contlinks > div {
+    width:100%;
+    background-color: #f1f1f1;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid;
+    margin-right: 10px;
+    margin-left: 10px;
+    box-shadow: 5px 10px;
+  }
+
+
+
+  #contHtmlAndCss {
+   
+    padding: 30px ;
+    margin: 0 auto;
+    width:80%;
+  }
+  
+  #contHtmlAndCss  > div{
+    width:100%;
+    background-color: #f1f1f1;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+  }
+
+
+  #contJavascript{
+   
+    padding: 30px;
+    margin: 0 auto;
+    width:80%;
+  }
+  
+  #contJavascript  > div {
+    width:100%;
+    background-color: #f1f1f1;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+  }
+
+  #contGitAndGithub{
+   
+    padding: 30px;
+    margin: 0 auto;
+    width:80%;
+  }
+  
+  #contGitAndGithub  > div {
+    width:100%;
+    background-color: #f1f1f1;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+  }
+
+  #contPython{
+   
+    padding: 30px;
+    margin: 0 auto;
+    width:80%;
+  }
+  
+  #contPython  > div {
+    width:100%;
+    background-color: #f1f1f1;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+  }
+
+#contOtherLibrary {
+  display: grid;
+  gap: 50px ;
+  grid-template-columns: auto;
+  background-color:rgb(189, 205, 214);
+  padding: 30px;
+  width: 100%;
+}
+
+#contOtherLibrary > div {
+  width:100%;
+ 
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px;
+
+}
+
+
+p{
+    padding: 10px;
+}
+
+footer{
+    background-color:rgb(96, 150, 180);
+    color:black;
+    width:100%;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  margin: 0 auto;
+  font-size: 18px;
+  text-align: left;
+}
+
+table th, table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background-color: #f2f2f2;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin: 5px 0;
+}
+
+/*===============================responsive===1366px============================*/
+@media  only screen and (min-width: 1024px) and (max-width: 1310px) {
+
+  iframe{display:none;}
+
+  hr{display: none;}
+
+}
+
+
+/*===============================responsive===1024px============================*/
+@media only screen and  (max-width: 1024px) and (orientation: landscape) {
+  /* CSS ruleset */
+
+  #technologiAndSkills{
+
+    width: 100% ;
+  
+    margin-left: 200px;
+    display: block;
+   }
+
+     /*=========ptojects page=responsive======*/
+     iframe{display:none;}
+
+     hr{display: none;}
+
+ 
+}
+
+
+
+
+
+
+/*===============================responsive===768px============================*/
+@media  only screen and (max-width: 768px)  {
+
+ 
+  H1{
+    font-size: 30px;
+    
+  }
+   #contlinks{
+     width: 100% ;
+     height: 30%;
+     display: block;
+    
+   
+     } 
+
+
+     #technologiAndSkills > div{
+
+      width: 100% ;
+    
+      margin: 0px;
+      display: block;
+     }
+
+
+
+     footer{
+         width: 100%;
+        height:30%;
+        display:block;
+     }
+ 
+#contHtmlAndCss{
+  width: 100%;
+ 
+  display: block;
+  font-size: 15px;
+}
+
+#contJavascript{
+  width: 100%;
+  display: block;
+  font-size: 15px;
+}
+
+#contGitAndGithub{
+  width: 100%;
+  display: block;
+  font-size: 15px;
+}
+
+#contPython{
+  width: 100%;
+  display: block;
+  font-size: 15px;
+}
+
+#contOtherLibrary{
+  width: 100%;
+  display: block;
+  font-size: 15px;}
+
+
+
+
+        /*=========ptojects page=responsive======*/
+        iframe{display:none;}
+
+        hr{display: none;}
+
+ }
+
+
+
+
+
+/*===============================responsive===480px============================*/
+
+
+@media  only screen and (max-width: 480px)  {
+
+ 
+  H1{
+    font-size: 25px;
+    padding-left:10px;
+  }
+   #contlinks{
+     width: 100% ;
+     height: 30%;
+     display: block;
+    
+   
+     } 
+
+
+     #technologiAndSkills{
+
+      width: 100% ;
+     
+    
+      display: block;
+     }
+
+
+
+     footer{
+         width: 100%;
+        height:30%;
+        display:block;
+     }
+ 
+#contHtmlAndCss{
+  width: 100%;
+ 
+  display: block;
+  font-size: 10px;
+}
+
+#contJavascript{
+  width: 100%;
+  display: block;
+  font-size: 10px;
+}
+
+#contGitAndGithub{
+  width: 100%;
+  display: block;
+  font-size: 10px;
+}
+
+#contPython{
+  width: 100%;
+  display: block;
+  font-size: 10px;
+}
+
+#contOtherLibrary{
+  width: 100%;
+  display: block;
+  font-size: 10px;}
+
+
+       /*=========ptojects page=responsive======*/
+ 
+  iframe{display:none;}
+
+  hr{display: none;}
+ 
+ }
+
+
+
+
+
+
+
+
+
+/*===========================Projects page content=======================*/
+
+
+
+
+#projects  {
+  display: grid;
+  gap: 50px ;
+  grid-template-columns: auto ;
+  background-color:rgb(189, 205, 214);
+  padding: 30px;
+  width:100%;
+  margin: 0 auto;
+}
+
+#projects > .project  {
+  width:60%;
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px;
+  margin: 0 auto;
+}
+
+hr{
+  width: 100%;
+  height: 2px;
+  
+  margin: 20px 0;
+  border: 2px solid black;
+}
+
+#contIframe{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+  
+}
+iframe {
+  width: 100%;
+  height: 700px;
+  border: none;
+}
+/*===========================Conntact Me page content=======================*/
+#contact{
+  display: grid;
+  gap: 50px ;
+  grid-template-columns: auto ;
+  background-color:rgb(189, 205, 214);
+  padding: 30px;
+  width:60%;
+  margin: 0 auto;
+  text-align:center ;
+ 
+}
+#map{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 70%;
+  height: 300px;
+  margin: 0 auto;
+
+
+
+}
+legend{
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  
+}
+ h3,h4{
+  font-weight:600;
+
+ }
