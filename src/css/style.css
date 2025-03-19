@@ -530,7 +530,13 @@ ul li {
 
 
 
+ @media  only screen and (max-width: 417px)  {
 
+*{
+  display: none;
+}
+
+ }
 
 
 
